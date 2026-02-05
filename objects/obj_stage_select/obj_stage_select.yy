@@ -10,8 +10,8 @@
   "name":"obj_stage_select",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu Objects",
-    "path":"folders/Objects/Menu Objects.yy",
+    "name":"Stage select",
+    "path":"folders/Objects/Menu Objects/Harmony menus/Stage select.yy",
   },
   "parentObjectId":null,
   "persistent":false,

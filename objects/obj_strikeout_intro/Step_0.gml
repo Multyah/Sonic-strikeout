@@ -17,6 +17,21 @@ if timer_intro = 90
 	{
 		instance_create_depth(48, 0, 0, obj_cgz_bg_intro);
 	}
+	
+//---Sin wave mouvement and Blending in text
+if timer_intro >= 400
+	{
+		time += 1;
+	}
+
+// Fade in alpha value
+if timer_intro >= 400 
+	{
+		if (alpha < 1) 
+			{
+				alpha = clamp(alpha + fade_speed, 0, 1);
+			}
+	}		
 
 //if pressing enter
 if(Input.StartPress)

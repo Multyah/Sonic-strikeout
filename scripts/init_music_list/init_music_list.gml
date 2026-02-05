@@ -2,6 +2,7 @@ function init_music_list()
 {
 	//Menu background music:
 	music_add(BGM_MENU, bgm_menu, 0.565);
+	music_add(BGM_INTRO, bgm_intro);
 	
 	//Stage background music:
 	music_add(BGM_ARBOREAL_1, bgm_arboreal_agate1);
@@ -22,3 +23,4 @@ function init_music_list()
 	#macro J_INVINCIBLE 4
 	#macro J_SPEEDSHOE 5
 	#macro J_ACT_CLEAR 6
+	#macro BGM_INTRO 7

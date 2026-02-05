@@ -14,4 +14,19 @@ if timer_intro >= 95
 	}
 	
 //Press enter text (incase its not obvious)
-if (timer_intro >= 700) {draw_text(obj_logo.x - 40, 800, "PRESS ENTER!");}
+
+//blending in + sinwave mouvement
+var wave_y = text_y + sin(time * frequency) * amplitude;
+
+if timer_intro >= 400
+	{
+		// Apply alpha blending
+		draw_set_alpha(alpha);
+		draw_set_color(c_white);
+
+		// Draw text moving up and down
+		draw_text(text_x, wave_y, text);
+		
+		// reset alpha
+		draw_set_alpha(1);
+	}

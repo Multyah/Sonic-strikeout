@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Stupid shit",
-    "path":"folders/Objects/Menu Objects/Stupid shit.yy",
+    "path":"folders/Objects/Menu Objects/Strikeout intro/Stupid shit.yy",
   },
   "parentObjectId":null,
   "persistent":false,
