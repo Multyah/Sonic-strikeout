@@ -10,7 +10,6 @@
 	global.score = 0;
 
 	quotes = ["Hello stupids"];
-	
 	quote_index = irandom(array_length(quotes)-1);
 	
 	//Randomize the BG

@@ -36,6 +36,6 @@ if timer_intro >= 400
 //if pressing enter
 if(Input.StartPress)
 	{
-		fade_to_room(rm_stage_select, 3);
-		music_set_fade(FADE_OUT, 5);
+		fade_to_room(rm_menu, 3);
+		music_set_fade(FADE_OUT, 3);
 	}
